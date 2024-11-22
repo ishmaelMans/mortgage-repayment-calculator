@@ -58,7 +58,7 @@ const YourResult = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}px) {
     border-bottom-left-radius: 0;
-    max-width: 390px;
+    max-width: 390px;we
     max-height: 700px;
     padding: 0 20px;
 
