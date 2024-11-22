@@ -6,10 +6,10 @@ This is a solution to the Mortgage repayment calculator challenge on Frontend Me
 
 - Overview
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshoots)
+  - [Screenshot](#screenshoot)
 - My Process
   - [Built with](#built-with)
-  - [What i learnet](#what-i-learned)
+  - [What i learnt](#what-i-learnt)
   - [continue development](#continue-development)
   - [useful resources](#useful-resources)
 - [Author](#author)
