@@ -61,6 +61,8 @@ const YourResult = styled.div`
     max-width: 390px;
     max-height: 700px;
     padding: 0 20px;
+
+    transform: translateY(-25px);
   }
 `;
 const PaymentContainer = styled.div`
