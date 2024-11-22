@@ -5,15 +5,15 @@ This is a solution to the Mortgage repayment calculator challenge on Frontend Me
 ## Table of contents
 
 - Overview
-  - [The Challenge](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#the-challenge)
-  - [Screenshot](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#screenshoots)
+  - [The Challenge](#the-challenge)
+  - [Screenshot](#screenshoots)
 - My Process
-  - [Built with](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#built-with)
-  - [What i learnt](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#screenshoots)
-  - [continue development](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#screenshoots)
-  - [useful resources](https://github.com/ishmaelMans/mortgage-repayment-calculator?tab=readme-ov-file#screenshoots)
-- Author
-- Acknowledgements
+  - [Built with](#built-with)
+  - [What i learnet](#what-i-learned)
+  - [continue development](#continue-development)
+  - [useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgements](acknowledgements)
 
 ## Overview
 
@@ -44,9 +44,11 @@ This is a solution to the Mortgage repayment calculator challenge on Frontend Me
 
 ## Built With
 
-- Reactjs
+- Flexbox
+- [React] - JS library
+- [Styled Components](https://styled-components.com/) - For styles
 
-## What I learned
+## What I learnt
 
 - I discovered new keyboard shortcuts while working on the project.
 - Better and faster working with keyboard only features of VSCode.
