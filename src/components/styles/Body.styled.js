@@ -27,7 +27,7 @@ const StyledBody = styled.div`
     min-height: 900px;
     border-radius: 0;
     justify-content: column;
-    width: 440px;
+    min-width: 440px;
     overflow: visible;
   }
 `;
@@ -40,7 +40,7 @@ const Form = styled.form`
   max-width: 100%;
 
   @media (max-width: ${({ theme }) => theme.mobile}px) {
-    width: 440px;
+    min-width: 440px;
   }
 `;
 
@@ -56,8 +56,8 @@ const StyledCalculatorContainer = styled.div`
   max-width: 100%;
 
   @media (max-width: ${({ theme }) => theme.mobile}px) {
-    width: 420px;
-    padding: 0 10px;
+    min-width: 440px;
+    // padding: 0 10px;
   }
 `;
 
@@ -74,8 +74,8 @@ const StyledResultContainer = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}px) {
     border-bottom-left-radius: 0;
-    mheight: 1000px;
-    width: 440px;
+    height: 1000px;
+    min-width: 440px;
   }
 `;
 
@@ -94,6 +94,16 @@ const StyledFirstSection = styled.div`
 
     &:hover {
       cursor: pointer;
+    }
+  }
+  @media (max-width: ${({ theme }) => theme.mobile}px) {
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+
+    p {
+      font-size: 16px;
+      margin-top: 10px;
     }
   }
 `;

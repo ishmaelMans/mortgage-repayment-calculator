@@ -12,7 +12,8 @@ const Container = styled.div`
   color: ${({ theme }) => (theme.color.isTrue ? theme.color.body : "gold")};
 
   @media (max-width: ${({ theme }) => theme.mobile}px) {
-    max-width: 420px;
+    width: 440px;
+
     height: 700px;
     display: flex;
     align-items: center;
