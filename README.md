@@ -5,13 +5,13 @@ This is a solution to the Mortgage repayment calculator challenge on Frontend Me
 ## Table of contents
 
 - Overview
-  - [The Challenge](https://github.com/ishmaelMans/Bento-grid/?tab=readme-ov-file#the-challenge)
-  - [Screenshot](https://github.com/ishmaelMans/Bento-grid/?tab=readme-ov-file#screenshoots)
+  - [The Challenge](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#the-challenge)
+  - [Screenshot](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#screenshoots)
 - My Process
-  - [Built with](https://github.com/ishmaelMans/Bento-grid/?tab=readme-ov-file#built-with)
-  - [What i learnt](https://github.com/ishmaelMans/Bento-grid/?tab=readme-ov-file#screenshoots)
-  - [continue development](https://github.com/ishmaelMans/Bento-grid/?tab=readme-ov-file#screenshoots)
-  - [useful resources](https://github.com/ishmaelMans/Bento-grid/?tab=readme-ov-file#screenshoots)
+  - [Built with](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#built-with)
+  - [What i learnt](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#screenshoots)
+  - [continue development](https://github.com/ishmaelMans/mortgage-repayment-calculator/?tab=readme-ov-file#screenshoots)
+  - [useful resources](https://github.com/ishmaelMans/mortgage-repayment-calculator?tab=readme-ov-file#screenshoots)
 - Author
 - Acknowledgements
 
