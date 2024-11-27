@@ -16,7 +16,9 @@ const ResultContainer = () => {
     monthlyPaymentToString,
     totalPaymentToString,
     totalInterestRateToString,
+    monthlyInterestRateToString,
   } = calculation();
+
   return (
     <>
       <StyledResultContainer>
@@ -35,10 +37,13 @@ const ResultContainer = () => {
                   <h1>£{monthlyPaymentToString}</h1>
                 )}
                 {isChecked === "interest" && (
-                  <h1>£{totalInterestRateToString}</h1>
+                  <h1>£{monthlyInterestRateToString}</h1>
                 )}
                 <p>Total you'll repay over the term</p>
-                <h4>£{totalPaymentToString} </h4>
+                {isChecked === "repayment" && <h4>£{totalPaymentToString}</h4>}
+                {isChecked === "interest" && (
+                  <h4>£{totalInterestRateToString}</h4>
+                )}
               </div>
             </PaymentContainer>
           </YourResult>

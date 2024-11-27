@@ -89,16 +89,26 @@ const Body = () => {
     const monthlyPayment = Math.floor(P * R);
     const totalPayment = Math.floor(numberOfPayments * monthlyPayment);
     const interestRateAmount = Math.floor(totalPayment - P);
+    const monthlyInterest = interestRateAmount / 12;
 
-    const monthlyPaymentToString = formatNumberWithCommas(monthlyPayment);
-    const totalPaymentToString = formatNumberWithCommas(totalPayment);
-    const totalInterestRateToString =
-      formatNumberWithCommas(interestRateAmount);
+    const monthlyPaymentToString = formatNumberWithCommas(
+      monthlyPayment.toFixed(2)
+    );
+    const totalPaymentToString = formatNumberWithCommas(
+      totalPayment.toFixed(2)
+    );
+    const totalInterestRateToString = formatNumberWithCommas(
+      interestRateAmount.toFixed(2)
+    );
+    const monthlyInterestRateToString = formatNumberWithCommas(
+      monthlyInterest.toFixed(2)
+    );
 
     return {
       monthlyPaymentToString,
       totalPaymentToString,
       totalInterestRateToString,
+      monthlyInterestRateToString,
     };
   };
 
@@ -120,7 +130,6 @@ const Body = () => {
 
     const allFieldsFilled = Object.values(newErrors).every((error) => !error);
     if (allFieldsFilled) {
-      console.log("Form submitted with:", isValue);
       setTimeout(() => {
         setShowResult(true);
         setHideResult(true);
