@@ -42,7 +42,9 @@ const CalculatorContainer = () => {
       <Form onSubmit={handleSubmit}>
         <StyledCalculatorContainer>
           <StyledFirstSection>
-            <h3>Mortgage Calculator</h3>
+            <header>
+              <h3>Mortgage Calculator</h3>
+            </header>
             <p onClick={clearAll}>Clear All</p>
           </StyledFirstSection>
           <StyledSecondSection>
