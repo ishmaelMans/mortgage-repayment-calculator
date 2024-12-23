@@ -146,36 +146,38 @@ const Body = () => {
 
   return (
     <>
-      <Container>
-        <StyledBody>
-          <UserContext.Provider
-            value={{
-              state,
-              setState,
-              isChecked,
-              setIsChecked,
-              isValue,
-              setIsValue,
-              changeFocusBg,
-              setChangFocusBg,
-              isError,
-              setIsError,
-              handleSubmit,
-              handleChange,
-              handleRadio,
-              clearAll,
-              showResult,
-              setShowResult,
-              hideResult,
-              setHideResult,
-              calculation,
-            }}
-          >
-            <CalculatorContainer />
-            <ResultContainer />
-          </UserContext.Provider>
-        </StyledBody>
-      </Container>
+      <main>
+        <Container>
+          <StyledBody>
+            <UserContext.Provider
+              value={{
+                state,
+                setState,
+                isChecked,
+                setIsChecked,
+                isValue,
+                setIsValue,
+                changeFocusBg,
+                setChangFocusBg,
+                isError,
+                setIsError,
+                handleSubmit,
+                handleChange,
+                handleRadio,
+                clearAll,
+                showResult,
+                setShowResult,
+                hideResult,
+                setHideResult,
+                calculation,
+              }}
+            >
+              <CalculatorContainer />
+              <ResultContainer />
+            </UserContext.Provider>
+          </StyledBody>
+        </Container>
+      </main>
     </>
   );
 };

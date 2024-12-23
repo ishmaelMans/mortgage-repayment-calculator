@@ -63,11 +63,12 @@ const StyledCalculatorContainer = styled.div`
 
 const StyledResultContainer = styled.div`
   width: 400px;
-  max-width: 100%;
+  // max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  // max-width: 100%;
+  padding: 20px;
+
   background-color: ${({ theme }) => theme.color.slate900};
   border-bottom-left-radius: 70px;
   color: white;
